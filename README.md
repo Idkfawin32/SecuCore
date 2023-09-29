@@ -1,7 +1,3 @@
-Below is a refined version of the `Readme.md` file that maintains the original content but enhances readability and organization by utilizing various Markdown features:
-
----
-
 # SecuCore
 
 ## Disclaimer
@@ -31,7 +27,11 @@ I created an HTTPClient object for usage and demonstration, but you can create o
 
 ### TLS Support
 
-Although not very robust, the library provides support for TLS11 and TLS12 with three available cipher suites. It offers an option outside of "SslStream" for handling TLS, including key generation, encryption, verification, and signing.
+Although not very robust, the library provides support for TLS11 and TLS12 with three available cipher suites. It offers an option outside of "SslStream" for handling TLS, including key generation, encryption, verification, and signing. The available ciphersuites are:
+
+- TLS_RSA_WITH_AES_128_CBC_SHA
+- TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+- TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
 
 ## Note
 
