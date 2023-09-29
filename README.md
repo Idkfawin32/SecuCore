@@ -24,6 +24,8 @@ I created an HTTPClient object for usage and demonstration, but you can create o
 - Basic Cookie Support
 - GET and POST requests
 - TLS/SSL elevation when "https" is at the beginning of the URL.
+- Chunked transfer encoding support
+- Gzip support
 
 ### TLS Support
 
