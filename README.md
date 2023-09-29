@@ -1,4 +1,4 @@
-# SecuCore
+# SecuCore: TCP network library for .Net with raw TLS implementation
 
 ## Disclaimer
 
